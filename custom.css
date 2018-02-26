@@ -12,11 +12,13 @@ a{
 
 p,label{
     font-size: 15px;
+    font-family: 'Helvetica Light' !important;
 }
 
 h1,h2,h3,h4,h5{
     margin-top: 10px !important;
     margin-bottom: 10px !important;
+    font-family: 'Helvetica Light' !important;
 }
 
 h5{
@@ -52,8 +54,10 @@ a.remove-hover{
 }
 
 
-/*-------- FONTS SIZES ---------*/
-
+/*-------- FONTS FAMILY | SIZES ---------*/
+.font-helvetica{
+    font-family: 'Helvetica Light' !important;
+}
 
 .font-100{
     font-size: 100px !important;
@@ -545,3 +549,7 @@ a.remove-hover{
 .display-block{
     display: block !important;
 } 
+
+.display-flex{
+    display: flex !important;
+}
